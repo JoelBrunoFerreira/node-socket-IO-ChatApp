@@ -78,11 +78,3 @@ io.on('connection', (socket) => {
 // Listening on PORT...
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => console.log(`The server is up and running on port: ${PORT} `));
-
-
-
-/* --------------------------------------------------- */
-// NOTES:
-// server (emit an event) --> client (receive the event) 
-
-// client (emit an event) --> server (receive the event) 
